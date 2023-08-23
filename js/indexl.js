@@ -25,7 +25,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi 方正|刚好今天休班|抄了一下界面|虽然有点|千篇一律|但还是要|祝你|生日快乐|happy birthday|#countdown 3||');
+      S.UI.simulate('Hi 方正|希望你能|喜欢|这份礼物|祝你|生日快乐|happy birthday|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
